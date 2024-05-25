@@ -359,35 +359,3 @@ button:hover {
  /* Media query for mobile responsiveness */
 
  
-/* Media query for phones */
-@me dia screen and (max-width: 600px) {
-    /* Adjustments for logo */
-    .additional-logo {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        transform: scale(0.1); /* Adjust for XXXXS size */
-    }
-
-    /* Adjustments for language selection */
-    .language-selection {
-        position: absolute;
-        top: 10px;
-        left: 100px; /* Adjust based on logo size and spacing */
-        margin: 20px auto; /* Center on smaller screens */
-        text-align: center; /* Center text */
-    }
-
-    /* Adjustments for How To button */
-    #how-to {
-        position: absolute;
-        top: 10px;
-        left: 200px; /* Adjust based on logo size and spacing */
-        margin: 20px auto; /* Center on smaller screens */
-        text-align: center; /* Center text */
-    }
-
-    .spacer {
-        display: none; /* Hide spacers on smaller screens */
-    }
-}
