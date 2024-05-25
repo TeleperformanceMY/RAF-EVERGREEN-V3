@@ -21,7 +21,9 @@ function translate(language) {
             shareLine: "Share via Line",
             qrCodeMessage: "or have your friend scanning this code above!",
             vrMessage: "They can visit our locations in VR so they learn of us:",
-            talentTeamMessage: "The Talent Attraction Team"
+            talentTeamMessage: "The Talent Attraction Team",
+            BackButton: "Back"
+    
         },
         korean: {
             chooseLanguage: "사용 언어를 선택 해 주세요 :",
@@ -40,7 +42,9 @@ function translate(language) {
             qrCodeMessage: "또는 이 코드를 통해 지인을 추천부탁드립니다.",
             vrMessage: "VR을 통해 좀더 저희회사에 대해 자세히 알아 보십시오 : ",
             talentTeamMessage: "채용담당팀",
-             HowtoButton: "How To!"
+             HowtoButton: "H어떻게	!",
+             BackButton: "뒤로"
+     
 
         },
         thai: {
@@ -52,7 +56,7 @@ function translate(language) {
             languageLabel: "ภาษา:",
             locationLabel: "สถานที่ทำงาน :",
             jobLabel: "ตำแหน่งงาน :",
-            nextButton: "ต่อไป",
+            nextButton: "ถัดไป",
             thankYou: "ขอบคุณที่แนะนำเพื่อนของคุณ!",
             referralMessage1: "เมื่อธุรกิจเราเติบโตขึ้นในประเทศมาเลเซีย มาร่วม #MoreTogether ในฐานะ #ElevateAsia กับเรากันเถอะ  คุณสามารถส่งลิ้งค์นี้ให้เพื่อนเพื่อใช้แท็กโปรไฟล์ของคุณระบบสมัครงานของเรา",
             shareWhatsApp: "แชร์ผ่าน WhatsApp",
@@ -60,7 +64,9 @@ function translate(language) {
             qrCodeMessage: "หรือขอให้เพื่อนของคุณสแกนโค้ดด้านบน!",
             vrMessage: "เพื่อนของคุณสามารถเยี่ยมชมสถานที่ของเราใน VR เพื่อเรียนรู้เกี่ยวกับเราได้",
             talentTeamMessage: "ทีม Talent Attraction",
-            HowtoButton: "How To!"
+            HowtoButton: "วิธีการ",
+            BackButton: "กลับ"
+    
 
         },
         malay: {
@@ -80,7 +86,9 @@ function translate(language) {
             qrCodeMessage: "atau minta rakan anda mengimbas kod ini di atas!",
             vrMessage: "Mereka boleh melawat lokasi kami dalam VR supaya mereka mengetahui tentang kami:",
             talentTeamMessage: "Pasukan Tarikan Bakat",
-            HowtoButton: "How To!"
+            HowtoButton: "Bagaimana Untuk",
+            BackButton: "Kembali"
+    
 
         },
         mandarin: {
@@ -101,7 +109,9 @@ function translate(language) {
             qrCodeMessage: "或者让您的朋友扫描以上的二维码！",
             vrMessage: "他们可以通过虚拟现实参观我们的位置，以便他们了解我们：",
             talentTeamMessage: "人才招聘团队",
-            HowtoButton: "How To!"
+            HowtoButton: "操作方法!",
+            BackButton: "返回"
+    
         },
        
         japanese: {
@@ -113,7 +123,7 @@ function translate(language) {
         languageLabel: "言語:",
         locationLabel: "勤務地 :",
         jobLabel: "職名 :",
-        nextButton: "次へ",
+        nextButton: "次に進む",
 
         thankYou: "友人をご紹介いただき、ありがとうございます！",
         referralMessage: "当社がマレーシアで成長するにつれ、#ElevateAsiaそして #MoreTogether の実現に近づいています。こちらのリンクをご利用頂くことで、あなたのプロフィールにタグ付けされて当社の採用システムに追加されます。",
@@ -122,7 +132,8 @@ function translate(language) {
         qrCodeMessage: "または上のコードを友達にスキャンしてもらいまし ょう ！",
         vrMessage: "VRで勤務地を訪問してもらい、当社についてさらに知ってもらいましょう：",
         talentTeamMessage: "タレントアトラクションチームより",
-        HowtoButton: "How To!"
+        HowtoButton: "どうする!",
+        BackButton: "元に戻る"
 
     }     };
 
@@ -147,6 +158,8 @@ function updatePageContent(language) {
 
 
     document.querySelector("#step2 h2").textContent = translations.thankYou;
+    document.querySelector("#step2 button").textContent = translations.BackButton;
+
     document.querySelector("#step2 p:nth-of-type(1)").textContent = translations.referralMessage1;
     document.querySelector("#share-button-whatsapp").textContent = translations.shareWhatsApp;
     document.querySelector("#share-button-line").textContent = translations.shareLine;
