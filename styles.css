@@ -1,4 +1,4 @@
-/* Add your custom styles here */
+
 
 /* Dropdown styling */
 .styled-dropdown {
@@ -57,28 +57,15 @@
     color: #333; /* Change label color */
 }
 
-/* How To button styling */
-#how-to button1 {
-    padding: 10px 20px;
-    background-color: #a458b7;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
 
-#how-to button1:hover {
-    background-color: #501c5c;
-}
 
 /* Next button styling */
 .popup-content button {
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: #a458b7;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -132,7 +119,7 @@ label {
 /* Dropdown styling */
 .language-selection {
     position: absolute;
-    top: 10px;
+    top: 100px;
     left: calc(40% + 50px); /* Adjust as needed */
 }
 
@@ -145,7 +132,7 @@ label {
 #how-to {
     position: absolute;
     position: absolute;
-    top: 40px;
+    top: 130px;
     left: calc(70% + 50px); /* Adjust as needed */
 }
 
@@ -291,23 +278,7 @@ button:hover {
  
 
 
- 
- 
-#refresh {
-    position: flex;
- 
-    top: 20px; /* Adjust the distance from the top of the page */
-    left: 20px; /* Adjust the distance from the left of the page */
- 
-}
-#refresh.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24
-}
- 
+  
 
 /* Container for the whole page */
 .container {
